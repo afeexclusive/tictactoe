@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="./tic.js"></script>
+</head>
+<body>
+    <div style="width: 40%;" class="mx-auto">
+        <div class="mx-auto">
+            <button name="score" id="a1" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('a1')">A</button>
+            <button name="score" id="a2" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('a2')">B</button>
+            <button name="score" id="a3" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('a3')">C</button>
+            <br>
+            <button name="score" id="b1" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('b1')">D</button>
+            <button name="score" id="b2" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('b2')">E</button>
+            <button name="score" id="b3" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('b3')">F</button>
+            <br>
+            <button name="score" id="c1" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('c1')">G</button>
+            <button name="score" id="c2" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('c2')">H</button>
+            <button name="score" id="c3" style="font-size: 100px; height: 150px; width: 150px;" class="btn btn-white border m-2" onclick="setLabel('c3')">I</button>
+        </div>
+    </div>
+    <div style="width: 60%;" class="mx-auto">
+        <br>
+        <input type="text" style="width: 40%; border: none; text-align: right; font-size: large;" placeholder="Enter the name of Team O">
+        <button id="ooo" style="font-size: 30px; height: 70px; width: 70px;" class="btn btn-white border text-danger" onclick="setTurn('o')">O</button>
+        <button id="xxx" style="font-size: 30px; height: 70px; width: 70px;" class="btn btn-white border text-primary" onclick="setTurn('x')">X</button> 
+        <input type="text" style="width: 40%; border: none; font-size: large;" placeholder="Enter the name of Team X">
+    </div>
+
+     
+    
+    
+</body>
+</html>
